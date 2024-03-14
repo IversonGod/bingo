@@ -25,7 +25,7 @@ function generateRandomNumber(max){
    }
 
    else if (randomNum >= 61 && randomNum <= 75){
-      return console.log(`Random number ${randomNum} is G. 61 - 75`);
+      return console.log(`Random number ${randomNum} is O. 61 - 75`);
    }
 
    else{
