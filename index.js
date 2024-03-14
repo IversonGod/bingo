@@ -8,24 +8,24 @@ function generateRandomNumber(max){
    // if ....else if ... else statement
    //if (confition) {block of code to execute}
    // =, !, >,<, >=<
-   if (randomNum <= 15 ) {
+   if (randomNum >= 1 && randomNum <= 15) {
       return console.log(`Random number ${randomNum} is B. 1 -15`);
    }
 
    else if (randomNum >= 16 && randomNum <= 30){
-      return console.log(`Random number ${randomNum} is I. 15 - 30`);
+      return console.log(`Random number ${randomNum} is I. 16 - 30`);
    }
 
-   else if (randomNum >= 16 && randomNum <= 30){
-      return console.log(`Random number ${randomNum} is N. 30 - 45`);
+   else if (randomNum >= 31  && randomNum <= 45){
+      return console.log(`Random number ${randomNum} is N. 31 - 45`);
    }
 
-   else if (randomNum >= 16 && randomNum <= 30){
-      return console.log(`Random number ${randomNum} is G. 45 - 60`);
+   else if (randomNum >= 46 && randomNum <= 60){
+      return console.log(`Random number ${randomNum} is G. 46 - 60`);
    }
 
-   else if (randomNum >= 16 && randomNum <= 30){
-      return console.log(`Random number ${randomNum} is G. 60 - 75`);
+   else if (randomNum >= 61 && randomNum <= 75){
+      return console.log(`Random number ${randomNum} is G. 61 - 75`);
    }
 
    else{
